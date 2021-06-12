@@ -7,7 +7,10 @@ do
 	nym=${kt}${i}
         sudo systemctl restart ${nym}.service
 	sleep 65
+	printf "\n\n"
+	printf "Xong ${nym}.service !"
+	printf "\n\n"
 done
 printf "\n\n"
-printf "DONE !"
+printf "XONG !"
 printf "\n\n"
