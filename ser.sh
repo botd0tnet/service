@@ -7,9 +7,9 @@ for(( i=1; i <=30; i++ ))
 do
 	cd ~
 	printf "\n\n"
-	printf "Restart ${nym}.service !"
 	kt='nym-mixnode'
 	nym=${kt}${i}
+	printf "Restart ${nym}.service !"	
         sudo systemctl restart ${nym}.service
 	printf "\n\n"
 	printf "Xong ${nym}.service !"
