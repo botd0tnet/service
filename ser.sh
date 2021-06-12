@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for(( i=3; i <=30; i++ ))
+for(( i=1; i <=30; i++ ))
 do
 	cd ~
 	kt='nym-mixnode'
