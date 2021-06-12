@@ -1,11 +1,11 @@
 #!/bin/bash
 
-for(( i=1; i <=30; i++ ))
+for(( i=3; i <=30; i++ ))
 do
 	cd ~
 	kt='nym-mixnode'
 	nym=${kt}${i}
-  sudo systemctl restart ${nym}.service
+        sudo systemctl restart ${nym}.service
 	sleep 65
 done
 printf "\n\n"
