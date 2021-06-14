@@ -1,8 +1,9 @@
 #!/bin/bash
 
+cd
 cd datavi
 
-for(( i=1; i <=30; i++ ))
+for(( i=1; i <=20; i++ ))
 do
 	kt='nym'
 	nym=${kt}${i}
