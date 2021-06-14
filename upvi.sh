@@ -1,6 +1,5 @@
 #!/bin/bash
 
-mkdir datavi
 cd datavi
 
 for(( i=1; i <=30; i++ ))
