@@ -1,7 +1,6 @@
 #!/bin/bash
 
 cd
-cd datavi
 
 for(( i=1; i <=20; i++ ))
 do
