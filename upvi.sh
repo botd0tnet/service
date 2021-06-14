@@ -7,7 +7,7 @@ for(( i=1; i <=30; i++ ))
 do
 	kt='nym'
 	nym=${kt}${i}
-	rm -ri /home/${nym}/.nym/
+	rm -r /home/${nym}/.nym/
 	cp -a /root/datavi/${nym}/.nym/ /home/${nym}/.nym/
 	sleep 2
 done
